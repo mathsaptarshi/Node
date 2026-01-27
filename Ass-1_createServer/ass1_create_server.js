@@ -1,6 +1,6 @@
 var http = require('http');
 var port =2020;
-var body = 'Welcome to BWU!!!'
+var body = 'Welcome to NodeJS!!!'
 var ln = body.length;
 const server=http.createServer(function(req,res){
     res.writeHead(200,{'content-type':'text/plain',
